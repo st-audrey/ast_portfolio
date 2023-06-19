@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,4 +23,20 @@
 body {
   max-width: 1440px;
   margin: 0 auto;
+  background: #44a08d;
+  background: #abbaab;
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+  background: linear-gradient(to right, #ffffff, #abbaab);
+}
+
+.font-marker {
+  font-family: "Permanent Marker", cursive;
+}
+
+.font-sora {
+  font-family: "Sora", sans-serif;
+}
+
+.font-orbit {
+  font-family: "Orbit", sans-serif;
 }
