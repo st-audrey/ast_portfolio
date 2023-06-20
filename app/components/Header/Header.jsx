@@ -12,7 +12,7 @@ export default function Header() {
         aria-label="Global"
       >
         <NavLink link_name="A propos" link_href="#about_section" />
-        <NavLink link_name="Projet" link_href="#works_section" />
+        <NavLink link_name="Projets" link_href="#works_section" />
         <NavLink link_name="Contact" link_href="#contact_section" />
       </nav>
       <div className="w-1/2 h-8 flex flew-row justify-end">

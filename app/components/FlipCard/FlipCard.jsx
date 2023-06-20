@@ -5,9 +5,9 @@ import {
   faSeedling,
   faChess,
   faPalette,
-  faFaceGrinBeamSweat,
-  faChessBishop,
-  faSkullCrossbones,
+  faBiohazard,
+  faChessKnight,
+  faFaceFlushed,
   faPersonCane,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -34,7 +34,7 @@ export default function FlipCard(props) {
               />
             </div>
             <div>
-              <p className="font-orbit font-semibold mt-3">
+              <p className="font-orbit font-semibold mt-2">
                 {props.title == "relationnel"
                   ? "Bon relationnel"
                   : props.title == "equipe"
@@ -47,15 +47,15 @@ export default function FlipCard(props) {
               </p>
             </div>
             <div>
-              <p className="font-orbit text-xs mt-3">
+              <p className="font-orbit text-xs mt-2">
                 {props.title == "relationnel"
-                  ? "Je dis ce que je pense et je pense ce que je dis."
+                  ? "J'accorde une grande importance à cultiver de bonnes relations avec mes collègues."
                   : props.title == "equipe"
-                  ? "Esprit d'équipe"
+                  ? "J'ai à cœur de travailler en étroite collaboration avec mes collègues pour atteindre nos objectifs communs."
                   : props.title == "junior"
-                  ? "Junior"
+                  ? "2 ans d'expérience me permettent de contribuer de manière significative aux projets."
                   : props.title == "creative"
-                  ? "Créative"
+                  ? "Je dessine, je peins, j’écris, je fais du piano, je suis plutôt douée pour les wireframes et les maquettes..."
                   : null}
               </p>
             </div>
@@ -67,40 +67,40 @@ export default function FlipCard(props) {
               <FontAwesomeIcon
                 icon={
                   props.title == "relationnel"
-                    ? faFaceGrinBeamSweat
+                    ? faBiohazard
                     : props.title == "equipe"
-                    ? faChessBishop
+                    ? faChessKnight
                     : props.title == "junior"
                     ? faPersonCane
                     : props.title == "creative"
-                    ? faSkullCrossbones
+                    ? faFaceFlushed
                     : null
                 }
               />
             </div>
             <div>
-              <p className="font-orbit mt-3">
+              <p className="font-orbit mt-2 font-semibold">
                 {props.title == "relationnel"
                   ? "Spontanée"
                   : props.title == "equipe"
-                  ? "Esprit d'équipe"
+                  ? "Cavalier seul"
                   : props.title == "junior"
-                  ? "Personne âgée"
+                  ? "J'ai 40 ans !"
                   : props.title == "creative"
-                  ? "Créative"
+                  ? "Exigente"
                   : null}
               </p>
             </div>
             <div>
-              <p className="font-orbit text-xs mt-3">
+              <p className="font-orbit text-xs mt-2">
                 {props.title == "relationnel"
                   ? "Je dis ce que je pense et je pense ce que je dis."
                   : props.title == "equipe"
-                  ? "Esprit d'équipe"
+                  ? "Je suis capable de travailler et de m’organiser de manière autonome."
                   : props.title == "junior"
-                  ? "Junior"
+                  ? "Je suis donc mature, diplomate, ponctuelle, calme, réfléchie ..."
                   : props.title == "creative"
-                  ? "Créative"
+                  ? "Choisir une typo pour ce portfolio m’a pris 4 jours."
                   : null}
               </p>
             </div>
