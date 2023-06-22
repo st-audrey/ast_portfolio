@@ -39,6 +39,7 @@ export default function Greeting() {
         Je suis Audrey <br />
         Développeuse Web
       </div>
+
       {/* <div className="w-1/3">
         <Spline scene="https://prod.spline.design/hb-DKAh9zktU6XXU/scene.splinecode" />
       </div> */}
