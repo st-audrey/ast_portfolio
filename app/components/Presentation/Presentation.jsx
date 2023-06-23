@@ -14,14 +14,14 @@ export default function Presentation() {
           <br />
           Cette formation, s'étalant sur deux ans, me permettra de maîtriser
           cette technologie et les bonnes pratiques qui lui sont liées, tout en
-          travaillant au sein d'une équipe dynamique. <br />
+          apportant mon savoir faire à une entreprise. <br />
           <br />
-          J'ai une vive préférence pour le <strong>full remote</strong> car
+          {/* J'ai une vive préférence pour le <strong>full remote</strong> car
           c'est comme cela que j'ai toujours travaillé et étudié. La distance
           n'est qu'un concept abstrait lorsqu'il s'agit de créer du code de
           qualité. De plus, cela me permet d'être totalement immergée dans mon
           univers de développement et je suis bien plus efficace sur mon propre
-          clavier avec mon chat sur les genoux :) <br />
+          clavier avec mon chat sur les genoux :) <br /> */}
           {/* <br />
           Je tiens également à mentionner que j'ai une reconnaissance de
           travailleur handicapé <strong>RQTH</strong>. Bien que je n'aie aucun

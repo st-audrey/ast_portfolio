@@ -3,7 +3,7 @@ import FlipCard from "../FlipCard/FlipCard";
 export default function About() {
   return (
     <div className="h-96 mx-8 flex flex-col" id="about_section">
-      <div className="font-orbit">A propos</div>
+      <div className="font-orbit font-semibold">A propos</div>
 
       <div
         className="h-96 mx-8 flex flex-row justify-between"

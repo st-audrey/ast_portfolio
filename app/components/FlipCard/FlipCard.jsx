@@ -19,7 +19,7 @@ export default function FlipCard(props) {
           <div className="flex flex-col justify-center">
             <div className="w-72 h-12 flex justify-center">
               <FontAwesomeIcon
-                className="w-3/12r"
+                className="icon-height"
                 icon={
                   props.title == "relationnel"
                     ? faHandshakeSimple
@@ -65,6 +65,7 @@ export default function FlipCard(props) {
           <div className="flex flex-col justify-center">
             <div className="w-72 h-12 flex justify-center">
               <FontAwesomeIcon
+                className="icon-height"
                 icon={
                   props.title == "relationnel"
                     ? faBiohazard

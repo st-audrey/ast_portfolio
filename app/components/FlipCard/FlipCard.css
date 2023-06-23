@@ -43,3 +43,7 @@
   transform: rotateY(180deg);
   border-radius: 50%;
 }
+
+.icon-height {
+  height: 3em !important;
+}

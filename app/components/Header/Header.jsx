@@ -16,10 +16,11 @@ export default function Header() {
         <NavLink link_name="Contact" link_href="#contact_section" />
       </nav>
       <div className="w-1/2 h-8 flex flew-row justify-end">
-        <FontAwesomeIcon icon={faGithub} className="h-8 cursor-pointer" />
+        <FontAwesomeIcon icon={faGithub} size="2x" className="cursor-pointer" />
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="h-8 ml-3 cursor-pointer"
+          size="2x"
+          className="ml-3 cursor-pointer"
         />
       </div>
     </header>
