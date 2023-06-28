@@ -16,12 +16,23 @@ export default function Header() {
         <NavLink link_name="Contact" link_href="#contact_section" />
       </nav>
       <div className="w-1/2 h-8 flex flew-row justify-end">
-        <FontAwesomeIcon icon={faGithub} size="2x" className="cursor-pointer" />
-        <FontAwesomeIcon
-          icon={faLinkedin}
-          size="2x"
-          className="ml-3 cursor-pointer"
-        />
+        <a href="https://github.com/st-audrey" target="_blank">
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="2x"
+            className="cursor-pointer"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/audrey-santo-tomas-44599518b/"
+          target="_blank"
+        >
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            size="2x"
+            className="ml-3 cursor-pointer"
+          />
+        </a>
       </div>
     </header>
   );
