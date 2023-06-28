@@ -3,6 +3,7 @@ import NavLink from "../NavLink/NavLink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -11,6 +12,11 @@ export default function Header() {
         className="flex items-center justify-between w-1/2"
         aria-label="Global"
       >
+        <FontAwesomeIcon
+          icon={faAsterisk}
+          size="2x"
+          className="cursor-pointer"
+        />
         <NavLink link_name="A propos" link_href="#about_section" />
         <NavLink link_name="Projets" link_href="#works_section" />
         <NavLink link_name="Contact" link_href="#contact_section" />
