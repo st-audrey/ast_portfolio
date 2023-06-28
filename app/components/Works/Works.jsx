@@ -6,7 +6,7 @@ export default function Works() {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <div className="h-96 mx-8 flex flex-col" id="works_section">
+    <div className="h-full mx-8 flex flex-col" id="works_section">
       <div className="font-orbit font-semibold">Projets</div>
 
       <div className="flex flex-row justify-around">

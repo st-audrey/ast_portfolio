@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function NavLink(props) {
   return (
     <a href={props.link_href} className="text-base font-orbit font-semibold">
