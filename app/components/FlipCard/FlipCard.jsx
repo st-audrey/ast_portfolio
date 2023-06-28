@@ -2,13 +2,12 @@ import "./FlipCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHandshakeSimple,
-  faSeedling,
   faChess,
   faPalette,
-  faBiohazard,
   faChessKnight,
   faFaceFlushed,
-  faPersonCane,
+  faBrain,
+  faFaceGrimace,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function FlipCard(props) {
@@ -26,7 +25,7 @@ export default function FlipCard(props) {
                     : props.title == "equipe"
                     ? faChess
                     : props.title == "junior"
-                    ? faSeedling
+                    ? faBrain
                     : props.title == "creative"
                     ? faPalette
                     : null
@@ -40,7 +39,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Esprit d'équipe"
                   : props.title == "junior"
-                  ? "Junior"
+                  ? "INTP"
                   : props.title == "creative"
                   ? "Créative"
                   : null}
@@ -53,7 +52,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "J'ai à cœur de travailler en étroite collaboration avec mes collègues pour atteindre nos objectifs communs."
                   : props.title == "junior"
-                  ? "2 ans d'expérience me permettent de contribuer de manière significative aux projets."
+                  ? "Capacité d'analyse et de résolution de problèmes, pensée créative et indépendance d'esprit."
                   : props.title == "creative"
                   ? "Je dessine, je peins, j’écris, je fais du piano, je suis plutôt douée pour les wireframes et les maquettes..."
                   : null}
@@ -68,11 +67,11 @@ export default function FlipCard(props) {
                 className="icon-height"
                 icon={
                   props.title == "relationnel"
-                    ? faBiohazard
+                    ? faFaceGrimace
                     : props.title == "equipe"
                     ? faChessKnight
                     : props.title == "junior"
-                    ? faPersonCane
+                    ? faBrain
                     : props.title == "creative"
                     ? faFaceFlushed
                     : null
@@ -86,7 +85,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Cavalier seul"
                   : props.title == "junior"
-                  ? "J'ai 40 ans !"
+                  ? "INTP"
                   : props.title == "creative"
                   ? "Exigente"
                   : null}
@@ -99,7 +98,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Je suis capable de travailler et de m’organiser de manière autonome."
                   : props.title == "junior"
-                  ? "Je suis donc mature, diplomate, ponctuelle, calme, réfléchie ..."
+                  ? "Difficulté à se conformer aux normes sociales et à exprimer ses émotions."
                   : props.title == "creative"
                   ? "Choisir une typo pour ce portfolio m’a pris 4 jours."
                   : null}
