@@ -1,19 +1,18 @@
 "use client";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
 import Greeting from "./components/Greeting/Greeting";
+import About from "./components/About/About";
 import Presentation from "./components/Presentation/Presentation";
 import Works from "./components/Works/Works";
+import Contact from "./components/Contact/Contact";
 
 export default function Home() {
   return (
-    <main id="main">
+    <main>
       <Greeting />
-      {/* <Presentation />
+      <Presentation />
       <About />
       <Works />
-      <div id="modal"></div>
-      <Contact /> */}
+      <Contact />
     </main>
   );
 }
