@@ -20,7 +20,7 @@ export default function ProjectModal({ show, onClose, children }) {
         <div className="modal-modal">
           <div className="modal-header">
             <a href="#" onClick={handleClose}>
-              <button>Close</button>
+              <button>x</button>
             </a>
           </div>
           <div className="modal-body">{children}</div>

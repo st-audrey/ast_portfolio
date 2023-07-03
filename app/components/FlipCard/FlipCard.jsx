@@ -98,7 +98,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Je suis capable de travailler et de m’organiser de manière autonome."
                   : props.title == "junior"
-                  ? "Difficulté à se conformer aux normes sociales et à exprimer ses émotions."
+                  ? "Le mot - corporate - me fait froid dans le dos."
                   : props.title == "creative"
                   ? "Choisir une typo pour ce portfolio m’a pris 4 jours."
                   : null}

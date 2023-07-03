@@ -14,11 +14,65 @@ export default function About() {
   };
 
   return (
-    <div className="h-96 mx-8 flex flex-col" id="about_section">
-      <div className="font-orbit font-semibold">A propos</div>
+    <div className="h-auto mx-8 flex flex-col" id="about_section">
+      <div className="font-orbit font-semibold mb-10">A propos</div>
+      <div className="flex flex-row justify-center mb-28">
+        <p className="font-orbit w-3/6">
+          Développeuse web junior en reconversion, passionnée par le monde de la
+          technologie, j'ai déjà parcouru un chemin professionnel riche et
+          diversifié.
+          <br />
+          <br /> Avant de me lancer dans le développement web, j'ai consacré
+          plusieurs années de ma vie à aider les autres en tant
+          qu'aide-soignante, ce qui m'a permis de développer de solides
+          compétences relationnelles et d'acquérir une grande empathie envers
+          les personnes dans le besoin. <br />
+          <br />
+          De plus, j'ai également eu une expérience valorisante en tant que
+          militaire, où j'ai appris l'importance du travail d'équipe, de la
+          discipline et de l'engagement.
+          <br />
+          <br />
+          Malgré une reconnaissance de travailleur handicapé, je tiens à
+          souligner que je suis parfaitement valide, capable et motivée pour
+          accomplir les tâches qui me sont confiées. <br />
+          <br />
+          Aujourd'hui, je suis animée par une passion nouvelle : la création de
+          sites web innovants et fonctionnels. Je suis constamment en train
+          d'apprendre et de me former aux dernières technologies, afin de
+          toujours rester à la pointe du développement web. <br />
+          <br />
+          J'aimerais travailler en full remote, car suis persuadée que le
+          travail à distance offre une flexibilité et une liberté accrues, tout
+          en permettant une concentration maximale sur les projets. <br />
+          Je suis enthousiaste à l'idée de rejoindre une équipe dynamique et
+          innovante, où je pourrai continuer à grandir en tant que développeuse
+          web. <br />
+          <br />
+          N'hésitez pas à me contacter pour discuter de toute opportunité de
+          collaboration ou pour en savoir plus sur mon parcours et mes
+          compétences. Merci de prendre le temps de découvrir mon portfolio en
+          ligne, où vous trouverez des exemples de mes travaux et de mes
+          réalisations. <br />
+          <br />
+          J'ai hâte de contribuer à des projets passionnants et de faire partie
+          d'une communauté professionnelle inspirante."
+        </p>
+      </div>
+
+      <div className="flex justify-center font-orbit font-semibold mb-20">
+        <button
+          className="dl-button"
+          onClick={() => {
+            downloadFile(PDF_URL);
+          }}
+        >
+          Télécharger mon CV
+        </button>
+      </div>
 
       <div
-        className="h-96 mx-8 flex flex-row justify-between"
+        className="h-96 mx-8 flex flex-row justify-between mb-28"
         id="about_section"
       >
         <div className="flex flex-col justify-center text-center">
@@ -36,17 +90,6 @@ export default function About() {
         <div className="flex flex-col justify-center text-center">
           <FlipCard title="creative" />
         </div>
-      </div>
-
-      <div className="flex justify-center font-orbit font-semibold">
-        <button
-          className="dl-button"
-          onClick={() => {
-            downloadFile(PDF_URL);
-          }}
-        >
-          Télécharger mon CV
-        </button>
       </div>
     </div>
   );
