@@ -1,0 +1,6 @@
+.works-card-overlay:hover {
+  background-color: rgb(41, 41, 41);
+  opacity: 0.8;
+  transition: 0.3s ease;
+  visibility: visible;
+}

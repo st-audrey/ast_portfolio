@@ -2,6 +2,9 @@
 import { useState } from "react";
 
 import Modal from "../Modal/Modal";
+// import ProjectCard from "../ProjectCard/ProjectCard";
+
+import "./Works.css";
 
 export default function Works() {
   const [showModal, setShowModal] = useState(false);
@@ -9,35 +12,88 @@ export default function Works() {
   const projects = [
     {
       id: 1,
-      name: "toto",
-      year: "2001",
-      mission: "toto titi titi",
-      img_front: "/photo.jpg",
-      img_modal: "/photo.jpg",
+      name: "Booki",
+      year: "2023",
+      tech: ["HTML", "CSS"],
+      img_cover: "/booki_cover.png",
+      img_modal: ["/booki_1.png"],
     },
     {
       id: 2,
       name: "lala",
       year: "1254",
       mission: "toto titi titi",
-      img_front: "/photo.jpg",
-      img_modal: "/photo.jpg",
+      img_cover: "/booki_cover.png",
+      img_modal: ["/booki_1.png"],
+    },
+    {
+      id: 3,
+      name: "Booki",
+      year: "2023",
+      tech: ["HTML", "CSS"],
+      img_cover: "/booki_cover.png",
+      img_modal: ["/booki_1.png"],
+    },
+    {
+      id: 4,
+      name: "lala",
+      year: "1254",
+      mission: "toto titi titi",
+      img_cover: "/booki_cover.png",
+      img_modal: ["/booki_1.png"],
     },
   ];
 
-  return (
-    <div className="h-full mx-8 flex flex-col" id="works_section">
-      <div className="font-orbit font-semibold">Projets</div>
+  const [project, setProject] = useState(projects[0]);
 
-      <div className="flex flex-row justify-around">
-        {projects.map((project) => (
-          <button key={project.id} onClick={() => setShowModal(true)}>
-            {project.name}0
-          </button>
+  return (
+    <div className="h-auto mb-20 mx-8" id="works_section">
+      <div className="font-orbit font-semibold mb-10">Projets</div>
+
+      <div className="grid grid-cols-2 gap-4 w-full">
+        {/* {projects &&
+          projects.map((project) => {
+            return (
+              <ProjectCard
+                key={project.id}
+                props={project}
+                onClick={function (e) {
+                  this.setProject(project);
+                  this.setShowModal(true);
+                }}
+                // onClick={() => {
+                //   this.setProject(project);
+                //   this.setShowModal(true);
+                // }}
+              />
+            );
+          })} */}
+        {projects.map((project, i) => (
+          <div
+            key={i}
+            className="works-card w-full h-96 mx-3 rounded-lg relative cursor-pointer"
+            onClick={() => {
+              setProject(project);
+              setShowModal(true);
+            }}
+          >
+            <div className="works-card-overlay w-full rounded-lg h-96 absolute top-0 left-0 hidden">
+              <div className="w-full h-80 ">Projet Booki</div>
+              <div className="w-full h-13">Voir plus</div>
+            </div>
+            <img
+              src={project.img_cover}
+              className="rounded-lg w-full h-96"
+              alt={project.name}
+            />
+          </div>
         ))}
-        <Modal show={showModal} onClose={() => setShowModal(false)}>
-          ttititititititit
-        </Modal>
+
+        <Modal
+          show={showModal}
+          selectedProject={project}
+          onClose={() => setShowModal(false)}
+        ></Modal>
       </div>
     </div>
   );
