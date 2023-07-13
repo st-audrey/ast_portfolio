@@ -41,12 +41,6 @@
   padding-top: 10px;
 }
 
-.modal-image-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 .modal-project {
   display: flex;
   flex-direction: row;
@@ -73,4 +67,23 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ffffffae;
+}
+
+.modal-tech {
+  color: white;
+  background-color: #44a08d;
+  border-radius: 20px;
+  margin-right: 5px;
+  padding: 5px 7px 5px;
+}
+
+.modal-image-container {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.modal-image {
+  -webkit-box-shadow: -4px -1px 13px 0px rgba(61, 61, 61, 1);
+  -moz-box-shadow: -4px -1px 13px 0px rgba(61, 61, 61, 1);
+  box-shadow: -4px -1px 13px 0px rgba(61, 61, 61, 1);
 }

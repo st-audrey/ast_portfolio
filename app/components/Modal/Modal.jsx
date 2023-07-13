@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import "./Modal.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 
 export default function Modal({ show, selectedProject, onClose, children }) {
   const [isBrowser, setIsBrowser] = useState(false);
@@ -20,30 +22,55 @@ export default function Modal({ show, selectedProject, onClose, children }) {
         <div className="modal-modal">
           <div className="modal-header">
             <a href="#" onClick={handleClose}>
-              <button>x</button>
+              <button className="font-semibold font-orbit">x</button>
             </a>
           </div>
           <div className="modal-body">
             <div className="modal-project">
-              <div className="w-1/2 pl-10">
-                <img src={selectedProject.img_cover} className="rounded-lg" />
-              </div>
-              <div className="w-1/2 font-orbit font-semibold pl-10">
-                {selectedProject.name}
+              <div className="font-orbit pl-10 flex flex-col justify-between">
+                <p className="font-semibold text-3xl">
+                  Projet {selectedProject.name}
+                </p>
+                <p className="font-semibold mt-5">
+                  Année :
+                  <span className="font-normal"> {selectedProject.year}</span>
+                </p>
+                <div className="font-semibold mt-5">
+                  Missions :
+                  <ul className="mt-5">
+                    {selectedProject.missions.map((mission, i) => (
+                      <li className="font-normal" key={i}>
+                        <FontAwesomeIcon
+                          icon={faAsterisk}
+                          size="lg"
+                          className="cursor-pointer"
+                        />
+                        <span> {mission}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="font-semibold flex flex-row items-center mt-5">
+                  Technologies :
+                  {selectedProject.techs.map((tech, i) => (
+                    <div className="font-normal modal-tech" key={i}>
+                      {tech}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-            <div className="modal-image-container mt-10">
-              {selectedProject &&
-                selectedProject.img_modal.map((image, i) => {
-                  return (
+            <div className="w-full flex flex-wrap mt-10">
+              {selectedProject.img_modal.length &&
+                selectedProject.img_modal.map((image, i) => (
+                  <div key={i} className="p-2 modal-image-container">
                     <img
                       src={image}
-                      key={i}
-                      alt=""
-                      className="modal-image rounded-lg"
+                      alt={selectedProject.name}
+                      className="modal-image rounded-lg mt-5 w-full h-auto"
                     />
-                  );
-                })}
+                  </div>
+                ))}
             </div>
           </div>
         </div>

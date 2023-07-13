@@ -4,14 +4,14 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Contact() {
   return (
-    <div className="h-96 mx-8 flex flex-col" id="contact_section">
+    <div className="h-auto mx-8 flex flex-col" id="contact_section">
       <div className="font-orbit font-semibold">Contact</div>
 
-      <div className="h-96 mx-8 flex flex-row justify-around">
+      <div className="h-96 flex flex-row justify-around my-40">
         <a href="mailto:st_audrey@outlook.fr" target="_blank">
           <FontAwesomeIcon
             icon={faPaperPlane}
-            size="2x"
+            size="10x"
             className="ml-3 cursor-pointer"
           />
         </a>
@@ -21,7 +21,7 @@ export default function Contact() {
         >
           <FontAwesomeIcon
             icon={faLinkedin}
-            size="2x"
+            size="10x"
             className="ml-3 cursor-pointer"
           />
         </a>

@@ -2,6 +2,8 @@
 import { useState } from "react";
 
 import Modal from "../Modal/Modal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import ProjectCard from "../ProjectCard/ProjectCard";
 
 import "./Works.css";
@@ -14,31 +16,109 @@ export default function Works() {
       id: 1,
       name: "Booki",
       year: "2023",
-      tech: ["HTML", "CSS"],
+      missions: [
+        "Intégration de maquettes Figma",
+        "Respect des spécifications et contraintes techniques",
+        "Versionner avec Git et Github",
+        "Responsive",
+        "Validité du code auprès du W3C",
+        "Production d'un rapport",
+      ],
+      techs: ["HTML", "CSS"],
       img_cover: "/booki_cover.png",
-      img_modal: ["/booki_1.png"],
+      img_modal: ["/booki_modal_1.png", "/booki_resp_1.png"],
     },
     {
       id: 2,
-      name: "lala",
-      year: "1254",
-      mission: "toto titi titi",
-      img_cover: "/booki_cover.png",
-      img_modal: ["/booki_1.png"],
+      name: "Portfolio S.B",
+      year: "2023",
+      missions: [
+        "Récupération de datas depuis le back-end (API)",
+        "Réalisation de filtres",
+        "Authentification de l’utilisateur",
+        "Création de formulaire",
+        "CRUD et gestion des erreurs",
+      ],
+      techs: ["HTML", "CSS", "Javascript", "POO", "API"],
+      img_cover: "/sb_cover.png",
+      img_modal: [
+        "/sb_modal_1.png",
+        "/sb_modal_2.png",
+        "/sb_modal_3.png",
+        "/sb_modal_4.png",
+      ],
     },
     {
       id: 3,
-      name: "Booki",
+      name: "Nina Carducci",
       year: "2023",
-      tech: ["HTML", "CSS"],
+      techs: ["Lighthouse", "Schema.org", "Google Rich Snippet", "Wave"],
+      missions: [
+        "Optimisation globale du site, tant sur les performances que sur le SEO",
+        "Mise en place le référencement local",
+        "Ajout des metas pour les réseaux sociaux",
+        "Modifications liées à l’accessibilité du site",
+        "Production d'un rapport d’optimisation présentant toutes les actions et leur impact",
+      ],
+      img_cover: "/booki_cover.png",
+      img_modal: [],
+      img_resp: [],
+    },
+    {
+      id: 4,
+      name: "Menu Maker",
+      year: "2023",
+      missions: [
+        "Développer un système de veille",
+        "Déterminer les spécifications techniques",
+        "Organiser la gestion de projet du développement du site",
+        "Configutation de l'outil de gestion de projet (Kanban, Roadmap, Planning Poker)",
+        "Production d'un rapport qui valorise la travail de veille",
+        "Production d'un rapport qui présente la solution technique",
+      ],
+      techs: ["Jira", "Pitch", "Feedly", "Notion"],
       img_cover: "/booki_cover.png",
       img_modal: ["/booki_1.png"],
     },
     {
-      id: 4,
-      name: "lala",
-      year: "1254",
-      mission: "toto titi titi",
+      id: 5,
+      name: "Kasa",
+      year: "2023",
+      missions: [
+        "Développer l’ensemble de l’application",
+        "Respect des maquettes et des coding guidelines",
+        "Responsive",
+        "Animations CSS",
+        "Production d'un rapport qui présente la solution",
+      ],
+      techs: ["React", "Sass"],
+      img_cover: "/kasa_cover.png",
+      img_modal: [
+        "/kasa_modal_1",
+        "/kasa_modal_2",
+        "/kasa_modal_3",
+        "/kasa_modal_4",
+      ],
+      img_resp: [
+        "/kasa_resp_1",
+        "/kasa_resp_2",
+        "/kasa_resp_3",
+        "/kasa_resp_4",
+      ],
+    },
+    {
+      id: 6,
+      name: "Mon Vieux Grimoir",
+      year: "2023",
+      missions: [
+        "Développer un système de veille",
+        "Déterminer les spécifications techniques",
+        "Organiser la gestion de projet du développement du site",
+        "Configutation de l'outil de gestion de projet (Kanban, Roadmap, Planning Poker)",
+        "Production d'un rapport qui valorise la travail de veille",
+        "Production d'un rapport qui présnete la solution technique",
+      ],
+      techs: ["Jira", "Pitch", "Feedly", "Notion"],
       img_cover: "/booki_cover.png",
       img_modal: ["/booki_1.png"],
     },
@@ -77,15 +157,29 @@ export default function Works() {
               setShowModal(true);
             }}
           >
-            <div className="works-card-overlay w-full rounded-lg h-96 absolute top-0 left-0 hidden">
-              <div className="w-full h-80 ">Projet Booki</div>
-              <div className="w-full h-13">Voir plus</div>
-            </div>
             <img
               src={project.img_cover}
-              className="rounded-lg w-full h-96"
+              className="rounded-lg h-96 w-full object-cover"
               alt={project.name}
             />
+            <div className="works-card-overlay w-full rounded-lg h-96 absolute top-0 left-0">
+              <div className="w-full flex flex-col justify-center items-center h-80">
+                <p className="font-orbit font-semibold text-black text-4xl">
+                  {project.name}
+                </p>
+              </div>
+
+              <div className="w-full h-13 flex justify-end pr-5 items-center">
+                <p className="font-orbit font-semibold text-black text-xl">
+                  Voir plus
+                </p>
+                <FontAwesomeIcon
+                  icon={faArrowRight}
+                  size="xl"
+                  className="pl-5 text-black"
+                />
+              </div>
+            </div>
           </div>
         ))}
 
