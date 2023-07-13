@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Blob from "../Blob/Blob";
+import Animation from "../Animation/Animation";
 
 export default function Presentation() {
   return (
@@ -24,7 +25,8 @@ export default function Presentation() {
       </div>
       <div className="w-6/12 h-auto">
         {/* <Image src="/photo.jpg" alt="" width="400" height="400" /> */}
-        <Blob />
+        {/* <Blob /> */}
+        <Animation />
       </div>
     </div>
   );

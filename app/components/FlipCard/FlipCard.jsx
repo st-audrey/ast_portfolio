@@ -87,7 +87,7 @@ export default function FlipCard(props) {
                   : props.title == "junior"
                   ? "INTP"
                   : props.title == "creative"
-                  ? "Exigente"
+                  ? "Dev Web"
                   : null}
               </p>
             </div>
@@ -98,9 +98,9 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Je suis capable de travailler et de m’organiser de manière autonome."
                   : props.title == "junior"
-                  ? "Le mot - corporate - me fait froid dans le dos."
+                  ? "Accorde une importance plus grande aux critères objectifs qu'à des considérations sociales et/ou passionnelles"
                   : props.title == "creative"
-                  ? "Choisir une typo pour ce portfolio m’a pris 4 jours."
+                  ? "Je ne suis pas Web Designer. Choisir une typo pour ce portfolio... m’a pris 4 jours."
                   : null}
               </p>
             </div>
