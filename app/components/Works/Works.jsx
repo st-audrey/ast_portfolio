@@ -60,9 +60,9 @@ export default function Works() {
         "Modifications liées à l’accessibilité du site",
         "Production d'un rapport d’optimisation présentant toutes les actions et leur impact",
       ],
-      img_cover: "/booki_cover.png",
-      img_modal: [],
-      img_resp: [],
+      img_cover: "/nina_cover.png",
+      img_modal: ["/nina_modal_1.png", "/nina_modal_2.png"],
+      pdf: "/nina_pdf.pdf",
     },
     {
       id: 4,
@@ -77,8 +77,14 @@ export default function Works() {
         "Production d'un rapport qui présente la solution technique",
       ],
       techs: ["Jira", "Pitch", "Feedly", "Notion"],
-      img_cover: "/booki_cover.png",
-      img_modal: ["/booki_1.png"],
+      img_cover: "/mm_cover.png",
+      img_modal: [
+        "/mm_modal_1.png",
+        "/mm_modal_2.png",
+        "/mm_modal_3.png",
+        "/mm_modal_4.png",
+      ],
+      pdf: "/mm_pdf.pdf",
     },
     {
       id: 5,
@@ -94,43 +100,54 @@ export default function Works() {
       techs: ["React", "Sass"],
       img_cover: "/kasa_cover.png",
       img_modal: [
-        "/kasa_modal_1",
-        "/kasa_modal_2",
-        "/kasa_modal_3",
-        "/kasa_modal_4",
-      ],
-      img_resp: [
-        "/kasa_resp_1",
-        "/kasa_resp_2",
-        "/kasa_resp_3",
-        "/kasa_resp_4",
+        "/kasa_modal_1.png",
+        "/kasa_resp_1.png",
+        "/kasa_modal_2.png",
+        "/kasa_resp_2.png",
+        "/kasa_modal_3.png",
+        "/kasa_resp_3.png",
+        "/kasa_modal_4.png",
+        "/kasa_resp_4.png",
       ],
     },
     {
       id: 6,
-      name: "Mon Vieux Grimoir",
+      name: "Mon Vieux Grimoire",
       year: "2023",
       missions: [
-        "Développer un système de veille",
-        "Déterminer les spécifications techniques",
-        "Organiser la gestion de projet du développement du site",
-        "Configutation de l'outil de gestion de projet (Kanban, Roadmap, Planning Poker)",
-        "Production d'un rapport qui valorise la travail de veille",
-        "Production d'un rapport qui présnete la solution technique",
+        "Implémenter un modèle logique de données conformément à la réglementation",
+        "Stocker des données de manière sécurisée",
+        "Mettre en œuvre des opérations CRUD de manière sécurisée",
+        "Production d'un rapport qui présente la solution",
       ],
-      techs: ["Jira", "Pitch", "Feedly", "Notion"],
-      img_cover: "/booki_cover.png",
-      img_modal: ["/booki_1.png"],
+      techs: [
+        "Express",
+        "Node",
+        "Mongoose",
+        "Nodemon",
+        "MongoDB",
+        "Helmet",
+        "Multer",
+        "Sharp",
+      ],
+      img_cover: "/mvg_cover.png",
+      img_modal: [
+        "/mvg_modal_1.png",
+        "/mvg_modal_2.png",
+        "/mvg_modal_3.png",
+        "/mvg_modal_4.png",
+      ],
+      pdf: "/mvg_pdf.pdf",
     },
   ];
 
   const [project, setProject] = useState(projects[0]);
 
   return (
-    <div className="h-auto mb-20 mx-8" id="works_section">
+    <div className="h-auto mx-8 mb-44" id="works_section">
       <div className="font-orbit font-semibold mb-10">Projets</div>
 
-      <div className="grid grid-cols-2 gap-4 w-full">
+      <div className="grid grid-cols-2 gap-4 w-full mb-28">
         {/* {projects &&
           projects.map((project) => {
             return (

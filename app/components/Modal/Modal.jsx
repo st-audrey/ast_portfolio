@@ -6,7 +6,6 @@ import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 
 export default function Modal({ show, selectedProject, onClose, children }) {
   const [isBrowser, setIsBrowser] = useState(false);
-  console.log("toto", selectedProject);
   useEffect(() => {
     setIsBrowser(true);
   }, []);
@@ -16,19 +15,21 @@ export default function Modal({ show, selectedProject, onClose, children }) {
     onClose();
   };
 
+  let pdf_href = selectedProject.pdf ? selectedProject.pdf : null;
+
   const modalContent = show ? (
     <div className="modal-overlay">
       <div className="modal-wrapper">
         <div className="modal-modal">
-          <div className="modal-header">
-            <a href="#" onClick={handleClose}>
+          <div className="modal-header relative">
+            <a href="#" onClick={handleClose} className="fixed">
               <button className="font-semibold font-orbit">x</button>
             </a>
           </div>
           <div className="modal-body">
             <div className="modal-project">
               <div className="font-orbit pl-10 flex flex-col justify-between">
-                <p className="font-semibold text-3xl">
+                <p className="font-semibold text-3xl mt-12">
                   Projet {selectedProject.name}
                 </p>
                 <p className="font-semibold mt-5">
@@ -60,7 +61,7 @@ export default function Modal({ show, selectedProject, onClose, children }) {
                 </div>
               </div>
             </div>
-            <div className="w-full flex flex-wrap mt-10">
+            <div className="w-full flex flex-wrap my-10">
               {selectedProject.img_modal.length &&
                 selectedProject.img_modal.map((image, i) => (
                   <div key={i} className="p-2 modal-image-container">
@@ -72,6 +73,13 @@ export default function Modal({ show, selectedProject, onClose, children }) {
                   </div>
                 ))}
             </div>
+            {selectedProject.pdf ? (
+              <div className="w-full flex flex-row justify-center my-12 font-orbit font-semibold">
+                <a href={pdf_href} target="_blank">
+                  Voir le rapport complet
+                </a>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>

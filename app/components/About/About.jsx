@@ -17,10 +17,9 @@ export default function About() {
     <div className="h-auto mx-8 flex flex-col" id="about_section">
       <div className="font-orbit font-semibold mb-10">A propos</div>
       <div className="flex flex-row justify-center mb-28">
-        <p className="font-orbit w-3/6">
-          Développeuse web junior en reconversion, passionnée par le monde de la
-          technologie, j'ai déjà parcouru un chemin professionnel riche et
-          diversifié.
+        <p className="font-orbit w-9/12">
+          Développeuse web junior en reconversion, j'ai déjà parcouru un chemin
+          professionnel riche et diversifié.
           <br />
           <br /> Avant de me lancer dans le développement web, j'ai consacré
           plusieurs années de ma vie à aider les autres en tant
@@ -34,13 +33,13 @@ export default function About() {
           <br />
           <br />
           Malgré une reconnaissance de travailleur handicapé, je tiens à
-          souligner que je suis parfaitement valide, capable et motivée pour
-          accomplir les tâches qui me sont confiées. <br />
+          souligner que je suis valide, capable et motivée pour accomplir les
+          tâches qui me sont confiées. <br />
           <br />
           Aujourd'hui, je suis animée par une passion nouvelle : la création de
-          sites web innovants et fonctionnels. Je suis constamment en train
-          d'apprendre et de me former aux dernières technologies, afin de
-          toujours rester à la pointe du développement web. <br />
+          sites web innovants. Je suis constamment en train d'apprendre et de me
+          former aux dernières technologies, afin de toujours rester à la pointe
+          du développement web. <br />
           <br />
           J'aimerais travailler en full remote, car suis persuadée que le
           travail à distance offre une flexibilité et une liberté accrues, tout

@@ -18,14 +18,14 @@ export default function Header() {
         />
 
         <NavLink
-          link_href="#about_section"
-          link_name="A propos"
+          link_href="#works_section"
+          link_name="Projets"
           className="font-semibold leading-6 text-gray-900"
         />
 
         <NavLink
-          link_href="#works_section"
-          link_name="Projets"
+          link_href="#about_section"
+          link_name="A propos"
           className="font-semibold leading-6 text-gray-900"
         />
 

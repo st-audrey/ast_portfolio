@@ -6,7 +6,7 @@ export default function Greeting() {
   // const spline = useRef();
 
   return (
-    <div className="h-96 w-full flex flex-row justify-between items-center mx-8 ">
+    <div className="h-96 w-full flex flex-row justify-between items-center mx-8 mb-28">
       <div className="text-6xl font-orbit">
         Bonjour !<br />
         Je suis Audrey <br />

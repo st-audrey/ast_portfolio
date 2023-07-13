@@ -3,7 +3,7 @@ import Blob from "../Blob/Blob";
 
 export default function Presentation() {
   return (
-    <div className="flex flex-row w-full m-8">
+    <div className="flex flex-row w-full m-8 mb-28">
       <div className="w-6/12">
         <p className="font-orbit">
           Bienvenue sur mon portfolio. <br />

@@ -10,8 +10,9 @@ export default function Home() {
     <main>
       <Greeting />
       <Presentation />
-      <About />
+
       <Works />
+      <About />
       <Contact />
     </main>
   );
