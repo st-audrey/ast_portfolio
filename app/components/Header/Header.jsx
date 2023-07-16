@@ -8,19 +8,19 @@ export default function Header() {
   return (
     <header className="bg-white mx-8 my-10 flex flex-grow">
       <nav
-        className="flex items-center justify-between w-1/2 font-orbit"
+        className="flex items-center justify-between md:w-1/2 font-orbit w-full"
         aria-label="Global"
       >
         <FontAwesomeIcon
           icon={faAsterisk}
           size="2x"
-          className="cursor-pointer"
+          className="cursor-pointer hidden sm:block"
         />
 
         <NavLink
           link_href="#works_section"
           link_name="Projets"
-          className="font-semibold leading-6 text-gray-900"
+          className="font-semibold leading-6 text-gray-900 "
         />
 
         <NavLink
