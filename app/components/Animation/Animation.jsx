@@ -1,5 +1,7 @@
 import "./Animation.css";
 
+// https://codepen.io/luishodesign/pen/VwaawWd
+
 export default function Animation() {
   return (
     <div className="flex justify-center">
@@ -33,7 +35,7 @@ export default function Animation() {
               width="20"
               height="3"
               fill="#F3F3F3"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -43,7 +45,7 @@ export default function Animation() {
               width="18"
               height="11"
               fill="#5A524E"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -87,13 +89,13 @@ export default function Animation() {
               width="5"
               height="7"
               fill="#CCC4C4"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <path
               id="Ellipse 416"
               d="M11 28C12.1046 28 13 27.1046 13 26C13 24.8954 12.1046 24 11 24"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -114,7 +116,7 @@ export default function Animation() {
               height="14"
               transform="rotate(90 58 27)"
               fill="#5f7d5f"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -125,7 +127,7 @@ export default function Animation() {
               height="14"
               transform="rotate(90 56 23)"
               fill="#5f7d5f"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -136,7 +138,7 @@ export default function Animation() {
               height="14"
               transform="rotate(90 60 19)"
               fill="#C0CBC0"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -172,7 +174,7 @@ export default function Animation() {
               width="56"
               height="5"
               fill="#797270"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -182,7 +184,7 @@ export default function Animation() {
               width="30"
               height="6"
               fill="#797270"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -192,7 +194,7 @@ export default function Animation() {
               width="4"
               height="24"
               fill="#797270"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -202,7 +204,7 @@ export default function Animation() {
               width="18"
               height="24"
               fill="#797270"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <line
@@ -211,7 +213,7 @@ export default function Animation() {
               y1="48"
               x2="58"
               y2="48"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <line
@@ -220,7 +222,7 @@ export default function Animation() {
               y1="39"
               x2="28"
               y2="39"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <line
@@ -229,7 +231,7 @@ export default function Animation() {
               y1="42"
               x2="52"
               y2="42"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <line
@@ -238,7 +240,7 @@ export default function Animation() {
               y1="54"
               x2="52"
               y2="54"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
             <rect
@@ -286,7 +288,7 @@ export default function Animation() {
               y1="60"
               x2="64"
               y2="60"
-              stroke="#453F3C"
+              stroke="#000000"
               stroke-width="2"
             />
           </g>
