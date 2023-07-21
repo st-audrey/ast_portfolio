@@ -55,7 +55,7 @@ export default function About() {
           réalisations. <br />
           <br />
           J'ai hâte de contribuer à des projets passionnants et de faire partie
-          d'une communauté professionnelle inspirante."
+          d'une communauté professionnelle inspirante.
         </p>
       </div>
 
