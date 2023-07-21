@@ -33,11 +33,11 @@ export default function Modal({ show, selectedProject, onClose, children }) {
                   Projet {selectedProject.name}
                 </p>
                 <p className="font-semibold mt-5">
-                  Année :
+                  Année:
                   <span className="font-normal"> {selectedProject.year}</span>
                 </p>
                 <div className="font-semibold mt-5">
-                  Missions :
+                  Missions:
                   <ul className="mt-5">
                     {selectedProject.missions.map((mission, i) => (
                       <li className="font-normal" key={i}>
@@ -52,12 +52,22 @@ export default function Modal({ show, selectedProject, onClose, children }) {
                   </ul>
                 </div>
                 <div className="font-semibold flex flex-row items-center mt-5">
-                  Technologies :
+                  Technologies:
                   {selectedProject.techs.map((tech, i) => (
-                    <div className="font-normal modal-tech" key={i}>
+                    <div className="font-normal modal-tech ml-2" key={i}>
                       {tech}
                     </div>
                   ))}
+                </div>
+                <div className="font-semibold flex flex-row items-center mt-5">
+                  Lien vers le code:
+                  <a
+                    href={selectedProject.link}
+                    target="_blank"
+                    className="font-normal ml-4 hover:text-teal-600 text-black hover:ease-in-out duration-300"
+                  >
+                    {selectedProject.name}
+                  </a>
                 </div>
               </div>
             </div>
