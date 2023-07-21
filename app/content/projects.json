@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Booki",
         "year": "2023",
+        "link": "https://github.com/st-audrey/booki",
         "missions": [
             "Intégration de maquettes Figma",
             "Respect des spécifications et contraintes techniques",
@@ -19,6 +20,7 @@
         "id": 2,
         "name": "Portfolio S.B",
         "year": "2023",
+        "link": "https://github.com/st-audrey/portefolio_sb",
         "missions": [
             "Récupération de datas depuis le back-end (API)",
             "Réalisation de filtres",
@@ -39,6 +41,7 @@
         "id": 3,
         "name": "Nina Carducci",
         "year": "2023",
+        "link": "https://github.com/st-audrey/nina-carducci.github.io",
         "techs": ["Lighthouse", "Schema.org", "Google Rich Snippet", "Wave"],
         "missions": [
             "Optimisation globale du site, tant sur les performances que sur le SEO",
@@ -55,6 +58,7 @@
         "id": 4,
         "name": "Menu Maker",
         "year": "2023",
+        "link": "https://github.com/st-audrey/menu_maker_by_qwenta",
         "missions": [
             "Développer un système de veille",
             "Déterminer les spécifications techniques",
@@ -77,6 +81,7 @@
         "id": 5,
         "name": "Kasa",
         "year": "2023",
+        "link": "https://github.com/st-audrey/kasa",
         "missions": [
             "Développer l’ensemble de l’application",
             "Respect des maquettes et des coding guidelines",
@@ -101,6 +106,7 @@
         "id": 6,
         "name": "Mon Vieux Grimoire",
         "year": "2023",
+        "link": "https://github.com/st-audrey/mvg",
         "missions": [
             "Implémenter un modèle logique de données conformément à la réglementation",
             "Stocker des données de manière sécurisée",
