@@ -6,7 +6,7 @@ import NavLink from "../NavLink/NavLink";
 
 export default function Header() {
   return (
-    <header className="bg-white mx-8 my-10 flex flex-grow">
+    <header className="bg-transparent mx-8 my-10 flex flex-grow">
       <nav
         className="flex items-center justify-between md:w-1/2 font-orbit w-full"
         aria-label="Global"
