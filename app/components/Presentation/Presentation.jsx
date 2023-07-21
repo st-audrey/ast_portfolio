@@ -4,8 +4,8 @@ import Animation from "../Animation/Animation";
 
 export default function Presentation() {
   return (
-    <div className="flex flex-row w-full m-8 mb-28">
-      <div className="w-6/12">
+    <div className="flex flex-col md:flex-row m-8 mb-28">
+      <div className="md:w-6/12 w-full">
         <p className="font-orbit">
           Bienvenue sur mon portfolio. <br />
           <br /> Je suis actuellement à la recherche d'un poste de développeur
@@ -23,7 +23,7 @@ export default function Presentation() {
           quelque chose d'extraordinaire !
         </p>
       </div>
-      <div className="w-6/12 h-auto">
+      <div className="md:w-6/12 h-auto w-full flew justify-center">
         {/* <Image src="/photo.jpg" alt="" width="400" height="400" /> */}
         {/* <Blob /> */}
         <Animation />
