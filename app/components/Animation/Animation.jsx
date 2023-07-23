@@ -36,7 +36,7 @@ export default function Animation() {
               height="3"
               fill="#F3F3F3"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="laptop-screen"
@@ -46,7 +46,7 @@ export default function Animation() {
               height="11"
               fill="#5A524E"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="line-1"
@@ -90,13 +90,13 @@ export default function Animation() {
               height="7"
               fill="#CCC4C4"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <path
               id="Ellipse 416"
               d="M11 28C12.1046 28 13 27.1046 13 26C13 24.8954 12.1046 24 11 24"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 996"
@@ -117,7 +117,7 @@ export default function Animation() {
               transform="rotate(90 58 27)"
               fill="#5f7d5f"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 985"
@@ -128,7 +128,7 @@ export default function Animation() {
               transform="rotate(90 56 23)"
               fill="#5f7d5f"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 986"
@@ -139,7 +139,7 @@ export default function Animation() {
               transform="rotate(90 60 19)"
               fill="#C0CBC0"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 993"
@@ -175,7 +175,7 @@ export default function Animation() {
               height="5"
               fill="#797270"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 987"
@@ -185,7 +185,7 @@ export default function Animation() {
               height="6"
               fill="#797270"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 975"
@@ -195,7 +195,7 @@ export default function Animation() {
               height="24"
               fill="#797270"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 974"
@@ -205,7 +205,7 @@ export default function Animation() {
               height="24"
               fill="#797270"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <line
               id="Line 129"
@@ -214,7 +214,7 @@ export default function Animation() {
               x2="58"
               y2="48"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <line
               id="Line 130"
@@ -223,7 +223,7 @@ export default function Animation() {
               x2="28"
               y2="39"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <line
               id="Line 142"
@@ -232,7 +232,7 @@ export default function Animation() {
               x2="52"
               y2="42"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <line
               id="Line 131"
@@ -241,7 +241,7 @@ export default function Animation() {
               x2="52"
               y2="54"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
             <rect
               id="Rectangle 988"
@@ -289,7 +289,7 @@ export default function Animation() {
               x2="64"
               y2="60"
               stroke="#000000"
-              stroke-width="2"
+              strokeWidth="2"
             />
           </g>
         </g>
