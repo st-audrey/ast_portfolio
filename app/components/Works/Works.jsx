@@ -18,7 +18,7 @@ export default function Works() {
     <div className="h-auto mx-8 mb-44" id="works_section">
       <div className="font-orbit font-semibold mb-10">Projets</div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full mb-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-14 w-full mb-28">
         {/* {projects &&
           projects.map((project) => {
             return (
@@ -39,7 +39,7 @@ export default function Works() {
         {projects.map((project, i) => (
           <div
             key={i}
-            className="works-card w-full h-96 mx-3 rounded-lg relative cursor-pointer"
+            className="works-card w-full h-full mx-3 rounded-lg relative cursor-pointer"
             onClick={() => {
               setProject(project);
               setShowModal(true);
@@ -47,11 +47,11 @@ export default function Works() {
           >
             <img
               src={project.img_cover}
-              className="rounded-lg h-96 w-full object-contain"
+              className="rounded-lg h-auto w-full overflow-hidden"
               alt={project.name}
             />
-            <div className="works-card-overlay w-full rounded-lg h-96 absolute top-0 left-0">
-              <div className="w-full flex flex-col justify-center items-center h-80">
+            <div className="works-card-overlay w-full rounded-lg h-full absolute top-0 left-0">
+              <div className="w-full flex flex-col justify-center items-center h-5/6">
                 <p className="font-orbit font-semibold text-black text-4xl">
                   {project.name}
                 </p>
