@@ -71,22 +71,22 @@ export default function About() {
       </div>
 
       <div
-        className="md:h-96 h-auto md:mx-8 flex flex-col md:flex-row md:justify-between mb-28 w-full"
+        className="lg:h-96 h-auto flex flex-col lg:flex-row lg:justify-between mb-28 w-full"
         id="about_section"
       >
-        <div className="flex md:flex-col flex-row justify-center text-center mt-4">
+        <div className="flex lg:flex-col flex-row justify-center text-center mt-4">
           <FlipCard title="relationnel" />
         </div>
 
-        <div className="flex md:flex-col flex-row justify-center text-center mt-4">
+        <div className="flex lg:flex-col flex-row justify-center text-center mt-4">
           <FlipCard title="equipe" />
         </div>
 
-        <div className="flex md:flex-col flex-row justify-center text-center mt-4">
+        <div className="flex lg:flex-col flex-row justify-center text-center mt-4">
           <FlipCard title="junior" />
         </div>
 
-        <div className="flex md:flex-col flex-row justify-center text-center mt-4">
+        <div className="flex lg:flex-col flex-row justify-center text-center mt-4">
           <FlipCard title="creative" />
         </div>
       </div>
