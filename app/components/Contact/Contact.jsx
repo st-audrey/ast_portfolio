@@ -12,8 +12,7 @@ export default function Contact() {
           <div className="font-orbit w-full text-center">
             <p>
               N'hésitez pas à me contacter par mail ou par message privé sur
-              <br />
-              LinkedIn. Je vous répondrai dans la journée.
+              LinkedIn. <br /> Je vous répondrai dans la journée.
             </p>
           </div>
 
