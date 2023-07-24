@@ -19,8 +19,8 @@ export default function Modal({ show, selectedProject, onClose, children }) {
 
   const modalContent = show ? (
     <div className="modal-overlay">
-      <div className="modal-wrapper">
-        <div className="modal-modal">
+      <div className="modal-wrapper w-screen lg:w-6/12">
+        <div className="modal-modal w-full">
           <div className="modal-header relative">
             <a href="#" onClick={handleClose} className="fixed">
               <button className="font-semibold font-orbit">x</button>
@@ -51,14 +51,15 @@ export default function Modal({ show, selectedProject, onClose, children }) {
                     ))}
                   </ul>
                 </div>
-                <div className="font-semibold flex flex-row items-center mt-5">
-                  Technologies:
+                <div className="font-semibold mt-5">Technologies:</div>
+                <div className="flex flex-wrap items-center">
                   {selectedProject.techs.map((tech, i) => (
-                    <div className="font-normal modal-tech ml-2" key={i}>
+                    <div className="font-normal modal-tech mr-2 mt-5" key={i}>
                       {tech}
                     </div>
                   ))}
                 </div>
+
                 <div className="font-semibold flex flex-row items-center mt-5">
                   Lien vers le code:
                   <a
