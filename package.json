@@ -2,6 +2,7 @@
   "name": "ast_portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://st-audrey.github.io/ast_portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
