@@ -17,7 +17,6 @@ export default function Works() {
   return (
     <div className="h-auto mx-8 mb-44" id="works_section">
       <div className="font-orbit font-semibold mb-10">Projets</div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-14 w-full mb-28">
         {/* {projects &&
           projects.map((project) => {

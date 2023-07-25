@@ -16,7 +16,7 @@ export default function FlipCard(props) {
       <div className="flip-card-inner">
         <div className="flip-card-front">
           <div className="flex flex-col justify-center">
-            <div className="w-72 h-12 flex justify-center">
+            <div className="h-12 ml-20">
               <FontAwesomeIcon
                 className="icon-height"
                 icon={
@@ -62,7 +62,7 @@ export default function FlipCard(props) {
         </div>
         <div className="flip-card-back">
           <div className="flex flex-col justify-center">
-            <div className="w-72 h-12 flex justify-center">
+            <div className="h-12 ml-20">
               <FontAwesomeIcon
                 className="icon-height"
                 icon={

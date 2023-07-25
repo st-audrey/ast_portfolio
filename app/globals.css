@@ -24,11 +24,19 @@
   height: calc(100% - 2.5rem);
 } */
 html {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
   height: 100%;
+}
+
+main {
+  width: 100%;
 }
 
 body {
   max-width: 1440px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   background: #44a08d;

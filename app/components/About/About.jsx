@@ -14,7 +14,7 @@ export default function About() {
   };
 
   return (
-    <div className="h-auto mx-8 flex flex-col" id="about_section">
+    <div className="h-auto mx-8" id="about_section">
       <div className="font-orbit font-semibold mb-10">A propos</div>
       <div className="flex flex-row justify-center mb-28">
         <p className="font-orbit w-9/12">
