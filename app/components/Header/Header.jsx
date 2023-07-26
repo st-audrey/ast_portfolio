@@ -8,7 +8,7 @@ import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import NavLink from "../NavLink/NavLink";
 
 export default function Header() {
-  const PDF_URL = "http://https://st-audrey.github.io/ast_portfolio/cv.pdf";
+  const PDF_URL = "https://st-audrey.github.io/ast_portfolio/cv.pdf";
   const downloadFile = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
