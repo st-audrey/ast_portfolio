@@ -13,7 +13,7 @@
             "Production d'un rapport"
         ],
         "techs": ["HTML", "CSS"],
-        "img_cover": "/booki_cover.webp",
+        "img_cover": "booki_cover.webp",
         "img_modal": ["/booki_modal_1.webp", "/booki_resp_1.webp"]
     },
     {
@@ -29,7 +29,7 @@
             "CRUD et gestion des erreurs"
         ],
         "techs": ["HTML", "CSS", "Javascript", "POO", "API"],
-        "img_cover": "/sb_cover.webp",
+        "img_cover": "sb_cover.webp",
         "img_modal": [
             "/sb_modal_1.webp",
             "/sb_modal_2.webp",
