@@ -123,7 +123,7 @@
             "Multer",
             "Sharp"
         ],
-        "img_cover": "/mvg_cover.webp",
+        "img_cover": "mvg_cover.webp",
         "img_modal": [
             "mvg_modal_1.webp",
             "mvg_modal_2.webp",
