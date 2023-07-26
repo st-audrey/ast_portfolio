@@ -14,7 +14,7 @@
         ],
         "techs": ["HTML", "CSS"],
         "img_cover": "booki_cover.webp",
-        "img_modal": ["/booki_modal_1.webp", "/booki_resp_1.webp"]
+        "img_modal": ["booki_modal_1.webp", "booki_resp_1.webp"]
     },
     {
         "id": 2,
@@ -31,10 +31,10 @@
         "techs": ["HTML", "CSS", "Javascript", "POO", "API"],
         "img_cover": "sb_cover.webp",
         "img_modal": [
-            "/sb_modal_1.webp",
-            "/sb_modal_2.webp",
-            "/sb_modal_3.webp",
-            "/sb_modal_4.webp"
+            "sb_modal_1.webp",
+            "sb_modal_2.webp",
+            "sb_modal_3.webp",
+            "sb_modal_4.webp"
         ]
     },
     {
@@ -50,9 +50,9 @@
             "Modifications liées à l’accessibilité du site",
             "Production d'un rapport d’optimisation présentant toutes les actions et leur impact"
         ],
-        "img_cover": "/nina_cover.webp",
-        "img_modal": ["/nina_modal_1.webp", "/nina_modal_2.webp"],
-        "pdf": "/nina_pdf.pdf"
+        "img_cover": "nina_cover.webp",
+        "img_modal": ["nina_modal_1.webp", "nina_modal_2.webp"],
+        "pdf": "nina_pdf.pdf"
     },
     {
         "id": 4,
@@ -68,14 +68,14 @@
             "Production d'un rapport qui présente la solution technique"
         ],
         "techs": ["Jira", "Pitch", "Feedly", "Notion"],
-        "img_cover": "/mm_cover.webp",
+        "img_cover": "mm_cover.webp",
         "img_modal": [
-            "/mm_modal_1.webp",
-            "/mm_modal_2.webp",
-            "/mm_modal_3.webp",
+            "mm_modal_1.webp",
+            "mm_modal_2.webp",
+            "mm_modal_3.webp",
             "/mm_modal_4.webp"
         ],
-        "pdf": "/mm_pdf.pdf"
+        "pdf": "mm_pdf.pdf"
     },
     {
         "id": 5,
@@ -90,16 +90,16 @@
             "Production d'un rapport qui présente la solution"
         ],
         "techs": ["React", "Sass"],
-        "img_cover": "/kasa_cover.webp",
+        "img_cover": "kasa_cover.webp",
         "img_modal": [
-            "/kasa_modal_1.webp",
-            "/kasa_resp_1.webp",
-            "/kasa_modal_2.webp",
-            "/kasa_resp_2.webp",
-            "/kasa_modal_3.webp",
-            "/kasa_resp_3.webp",
-            "/kasa_modal_4.webp",
-            "/kasa_resp_4.webp"
+            "kasa_modal_1.webp",
+            "kasa_resp_1.webp",
+            "kasa_modal_2.webp",
+            "kasa_resp_2.webp",
+            "kasa_modal_3.webp",
+            "kasa_resp_3.webp",
+            "kasa_modal_4.webp",
+            "kasa_resp_4.webp"
         ]
     },
     {
@@ -125,11 +125,11 @@
         ],
         "img_cover": "/mvg_cover.webp",
         "img_modal": [
-            "/mvg_modal_1.webp",
-            "/mvg_modal_2.webp",
-            "/mvg_modal_3.webp",
-            "/mvg_modal_4.webp"
+            "mvg_modal_1.webp",
+            "mvg_modal_2.webp",
+            "mvg_modal_3.webp",
+            "mvg_modal_4.webp"
         ],
-        "pdf": "/mvg_pdf.pdf"
+        "pdf": "mvg_pdf.pdf"
     }
 ]
