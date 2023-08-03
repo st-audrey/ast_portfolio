@@ -51,17 +51,13 @@ export default function Header() {
         />
       </nav>
       <div className="w-1/2 h-8 flex flew-row justify-end">
-        <button
-          onClick={() => {
-            downloadFile(PDF_URL);
-          }}
-        >
+        <a href="cv.pdf" target="_blank">
           <FontAwesomeIcon
             icon={faAddressCard}
             size="2x"
             className="cursor-pointer"
           />
-        </button>
+        </a>
 
         <a href="https://github.com/st-audrey" target="_blank">
           <FontAwesomeIcon

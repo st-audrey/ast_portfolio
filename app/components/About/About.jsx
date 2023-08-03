@@ -1,7 +1,7 @@
 import FlipCard from "../FlipCard/FlipCard";
 
 export default function About() {
-  const PDF_URL = "http://localhost:3000/cv.pdf";
+  const PDF_URL = "/cv.pdf";
   const downloadFile = (url) => {
     const fileName = url.split("/").pop();
     const aTag = document.createElement("a");
@@ -60,14 +60,7 @@ export default function About() {
       </div>
 
       <div className="flex justify-center font-orbit font-semibold mb-20">
-        <button
-          className="dl-button"
-          onClick={() => {
-            downloadFile(PDF_URL);
-          }}
-        >
-          Télécharger mon CV
-        </button>
+        <a href="cv.pdf">Télécharger mon CV</a>
       </div>
 
       <div
