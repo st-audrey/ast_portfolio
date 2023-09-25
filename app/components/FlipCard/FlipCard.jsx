@@ -39,7 +39,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Esprit d'équipe"
                   : props.title == "junior"
-                  ? "INTP"
+                  ? "MBTI = INTP"
                   : props.title == "creative"
                   ? "Créative"
                   : null}
@@ -85,7 +85,7 @@ export default function FlipCard(props) {
                   : props.title == "equipe"
                   ? "Cavalier seul"
                   : props.title == "junior"
-                  ? "INTP"
+                  ? "MBTI = INTP"
                   : props.title == "creative"
                   ? "Dev Web"
                   : null}

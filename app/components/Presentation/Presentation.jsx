@@ -8,19 +8,24 @@ export default function Presentation() {
       <div className="md:w-6/12 w-full">
         <p className="font-orbit">
           Bienvenue sur mon portfolio. <br />
-          <br /> Je suis actuellement à la recherche d'un poste de développeur
-          web / frontend en <strong>alternance</strong> pour me perfectionner
-          sur <strong>React</strong> grâce la formation de développeur React
-          proposée par la très reconnue plateforme{" "}
-          <strong>Openclassrooms</strong>. <br />
           <br />
-          Cette formation, s'étalant sur deux ans, me permettra de maîtriser
-          cette technologie et les bonnes pratiques qui lui sont liées, tout en
-          apportant mon savoir faire à une entreprise. <br />
+          Passionnée par la création de solutions numériques innovantes, je
+          recherche actuellement un poste de Développeuse web / frontend en CDI.
           <br />
-          N'hésitez pas à explorer mon portfolio et à me contacter.
-          <br /> Repoussons ensemble les limites de l'innovation et créons
-          quelque chose d'extraordinaire !
+          <br />
+          Mes compétences en JavaScript, Angular et React, me permettent de
+          concevoir des sites web performants, attrayants et accessibles. Je
+          crois en la puissance d'une première impression positive et en
+          l'importance d'une expérience utilisateur exceptionnelle.
+          <br />
+          <br />
+          J'ai également été formée en SEO, ce qui signifie que je peux
+          contribuer à positionner votre site web de manière stratégique dans
+          les résultats de recherche. <br />
+          <br />
+          Pour en savoir plus sur mon travail, n'hésitez pas à consulter mon
+          portfolio. Je suis enthousiaste à l'idée de rejoindre une équipe
+          dynamique et de contribuer à son succès.
         </p>
       </div>
       <div className="md:w-6/12 h-auto w-full flew justify-center">

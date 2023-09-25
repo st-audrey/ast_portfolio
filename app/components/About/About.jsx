@@ -41,12 +41,13 @@ export default function About() {
           former aux dernières technologies, afin de toujours rester à la pointe
           du développement web. <br />
           <br />
-          J'aimerais travailler en full remote, car suis persuadée que le
-          travail à distance offre une flexibilité et une liberté accrues, tout
-          en permettant une concentration maximale sur les projets. <br />
-          Je suis enthousiaste à l'idée de rejoindre une équipe dynamique et
-          innovante, où je pourrai continuer à grandir en tant que développeuse
-          web. <br />
+          Mon objectif professionnel est clair : continuer à apprendre et à
+          grandir en tant que développeuse. La technologie évolue rapidement, et
+          je suis convaincue que l'apprentissage continu est essentiel pour
+          rester compétitif. Je suis prête à relever de nouveaux défis, à
+          acquérir de nouvelles compétences et à contribuer au succès de notre
+          entreprise.
+          <br />
           <br />
           N'hésitez pas à me contacter pour discuter de toute opportunité de
           collaboration ou pour en savoir plus sur mon parcours et mes
